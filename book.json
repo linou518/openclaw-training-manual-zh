@@ -1,0 +1,50 @@
+{
+    "title": "OpenClaw完整部署培训手册",
+    "description": "从零开始到专家级多服务器架构的完整学习指南",
+    "author": "Joe (AI Assistant)",
+    "language": "zh-hans",
+    "direction": "ltr",
+    "gitbook": ">=3.2.0",
+    
+    "plugins": [
+        "highlight",
+        "search",
+        "copy-code-button",
+        "expandable-chapters",
+        "anchor-navigation-ex",
+        "klipse",
+        "todo",
+        "emphasize",
+        "splitter",
+        "page-toc-button",
+        "back-to-top-button",
+        "-sharing"
+    ],
+    
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": true
+        },
+        "page-toc-button": {
+            "maxTocDepth": 3,
+            "minTocSize": 2
+        },
+        "emphasize": {
+            "type": "bordered"
+        }
+    },
+    
+    "pdf": {
+        "pageNumbers": true,
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 56,
+            "bottom": 56
+        }
+    }
+}

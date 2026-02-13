@@ -1,0 +1,19 @@
+# GitBook generated files
+_book/
+.grunt/
+node_modules/
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
